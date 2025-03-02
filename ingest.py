@@ -15,7 +15,7 @@ NAMESPACE = "Autobiography"
 # Load in word format:
 from langchain_community.document_loaders import Docx2txtLoader
 
-loader = Docx2txtLoader(r"C:\Users\NANDHINI\Desktop\Love_of_Bharathiyar\Coding__BHarathi\Tamilal.docx")
+loader = Docx2txtLoader(r"C:\Users\NANDHINI\Desktop\Love_of_Bharathiyar\Just_HOST\Tamilal.docx")
 # Load the PDF file
 #loader = PyPDFLoader(r"C:\Users\NANDHINI\Desktop\Love_of_Bharathiyar\Coding__BHarathi\Bharathi Tamil =50pg.pdf")
 print("done with textloader", loader)
